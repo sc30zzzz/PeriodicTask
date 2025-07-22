@@ -21,8 +21,6 @@ Components
     PrintTaskStatus: Utility task for printing task statuses periodically
 
 Usage Example
-cpp
-运行
 
 #include "PeriodicTask.h"
 #include <iostream>
