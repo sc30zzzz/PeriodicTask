@@ -1,0 +1,3 @@
+/home/sdu/PeriodicTask/build/CMakeFiles/rebuild_cache.dir
+/home/sdu/PeriodicTask/build/CMakeFiles/edit_cache.dir
+/home/sdu/PeriodicTask/build/CMakeFiles/periodic_task.dir
