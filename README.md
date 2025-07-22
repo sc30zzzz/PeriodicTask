@@ -20,35 +20,6 @@ Components
     PeriodicMemberFunction: Wrapper for class member functions as periodic tasks
     PrintTaskStatus: Utility task for printing task statuses periodically
 
-Usage Example
-
-#include "PeriodicTask.h"
-#include <iostream>
-
-// Example task function
-void exampleTask() {
-    std::cout << "Executing periodic task" << std::endl;
-}
-
-int main() {
-    // Create task manager
-    PeriodicTaskManager manager;
-
-    // Create a periodic task (runs every 1 second)
-    PeriodicFunction task(&manager, 1.0f, "ExampleTask", exampleTask);
-
-    // Start the task
-    task.start();
-
-    // Run for 10 seconds
-    sleep(10);
-
-    // Stop the task
-    task.stop();
-
-    return 0;
-}
-
 Building the Project
 Prerequisites
 
